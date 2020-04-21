@@ -2,6 +2,7 @@
 
 ## Content
 
+
 1. [Motivation](#motivation)
 2. [Start Project locally](#start-locally)
 3. [API Documentation](#api)
@@ -10,7 +11,7 @@
 <a name="motivation"></a>
 ## Motivations & Covered Topics
 
-By completing this project, I learn and apply my skills on: 
+By completing this project, I learn and apply my skills on : 
 
 1. Database modeling with `postgres` & `sqlalchemy` (see `models.py`)
 2. API to performance CRUD Operations on database with `Flask` (see `app.py`)
