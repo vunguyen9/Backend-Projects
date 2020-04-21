@@ -142,7 +142,14 @@ Errors are returned as JSON objects in the following format:
   "success": False,
   "error": 400,
   "message": "bad request"
+}
+```
 
+- Authorization Error
+```
+{
+  'code': 'invalid_header',
+  'description': 'Authorization header must be bearer token'
 }
 ```
 
@@ -150,6 +157,8 @@ The API will return three error types when requests fail:
 - 400: Bad Request
 - 404: Resource Not Found
 - 422: Unprocessable
+- 401: invalid_header
+
 
 
 # <a name="get-actors"></a>
